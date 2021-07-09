@@ -1,7 +1,7 @@
 # SpringCloudOAuth2
 
 ## Description
-The **SpringCloudOAuth2** is a project that show how to implement a authentication server using the Spring Cloud OAuth2.
+Project that show how to implement a authentication server using the Spring Cloud OAuth2.
 
 ## Technologies
 The project use the following technologies:
