@@ -4,7 +4,7 @@
 
   <groupId>com.ctseducare</groupId>
   <artifactId>spring-cloud-oauth2</artifactId>
-  <version>1.0.0</version>
+  <version>1.0.1</version>
   <packaging>jar</packaging>
   
   <properties>
@@ -15,7 +15,7 @@
   <parent>
     <groupId>org.springframework.boot</groupId>
     <artifactId>spring-boot-starter-parent</artifactId>
-    <version>2.3.9.RELEASE</version>  <!-- fev/2021 -->
+    <version>2.5.3</version>  <!-- jul/2021 -->
   </parent>
   
   <dependencies>
@@ -28,7 +28,7 @@
     <dependency>
       <groupId>org.springframework.cloud</groupId>
       <artifactId>spring-cloud-starter-oauth2</artifactId>
-      <version>2.2.5.RELEASE</version>
+      <version>2.2.5.RELEASE</version>  <!-- apr/2021 -->
     </dependency>
     <!-- https://mvnrepository.com/artifact/mysql/mysql-connector-java -->
     <dependency>
