@@ -1,21 +1,30 @@
-# SpringCloudOAuth2
-
-## Description
-Project that show how to implement a authentication server using the Spring Cloud OAuth2.
+## About
+The project shows how to implement an authentication server using Spring Cloud OAuth2.
 
 ## Technologies
-The project use the following technologies:
+The following tools were used in this project:
 
-* Java 11
-* Apache Maven
-* Spring Boot
-* Spring Cloud OAuth2
-* MySQL Server
-* IDE Eclipse
+* [Java Oracle](https://www.oracle.com/java/)
+* [Apache Maven](https://maven.apache.org/)
+* [MySQL Server](https://www.mysql.com/)
+* [Spring Boot](https://spring.io/projects/spring-boot)
+* [Spring Security OAuth](https://spring.io/projects/spring-security-oauth)
+* [Spring Data JPA](https://spring.io/projects/spring-data-jpa)
+* [IDE Eclipse](https://www.eclipse.org/)
 
-## Database
-The demo database must be created by SQL script below.
+## Requirements
+Before starting this project you need to have Git, JDK Oracle, Maven, MySQL Server and Eclipse IDE installed.
 
+## Starting the project
+
+### Clonning the project
+```
+$ git clone https://github.com/erosvitor/spring-cloud-oauth2.git
+
+$ cd spring-cloud-oauth2
+```
+
+### Creating the database
 ```
 CREATE SCHEMA springcloudoauth DEFAULT CHARACTER SET utf8;
 
@@ -121,10 +130,10 @@ INSERT INTO `roles_permissions` (`idrole`, `idpermission`) VALUES (1, 7);
 INSERT INTO `roles_permissions` (`idrole`, `idpermission`) VALUES (1, 8);
 ```
 
-## Testing the project
-**Step 1:** Start the application
+### Testing the project
+**Step 1:** Start the application using Eclipse IDE or by Maven command line
 
-**Step 2:** Run the following 
+**Step 2:** Login in the application with the user 'admin' using the following command
 
 ```
 curl \
@@ -149,6 +158,9 @@ The result of above command will be a token in JWT format.
 ```
 
 You can see token details using the link [JWT.io](https://jwt.io/)
+
+## License
+This project is under license from MIT. For more details, see the LICENSE file.
 
 ## Release History
 * 1.0.1 (2021-08-03)
