@@ -2,7 +2,7 @@
 The project shows how to implement an authentication server using Spring Cloud OAuth2.
 
 ## Technologies
-The following tools were used in this project:
+The following technologies were used in this project:
 
 * [Java Oracle](https://www.oracle.com/java/)
 * [Apache Maven](https://maven.apache.org/)
@@ -11,9 +11,6 @@ The following tools were used in this project:
 * [Spring Security OAuth](https://spring.io/projects/spring-security-oauth)
 * [Spring Data JPA](https://spring.io/projects/spring-data-jpa)
 * [IDE Eclipse](https://www.eclipse.org/)
-
-## Requirements
-Before starting this project you need to have Git, JDK Oracle, Maven, MySQL Server and Eclipse IDE installed.
 
 ## Starting the project
 
@@ -161,9 +158,3 @@ You can see token details using the link [JWT.io](https://jwt.io/)
 
 ## License
 This project is under license from MIT. For more details, see the LICENSE file.
-
-## Release History
-* 1.0.1 (2021-08-03)
-    * Spring Boot updated to 2.5.3
-* 1.0.0 (2021-05-15)
-    * First version
